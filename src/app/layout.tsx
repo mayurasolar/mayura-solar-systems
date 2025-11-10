@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: '%s | Mayura Solar Systems Udupi',
   },
   description:
-    'Leading solar water heater dealer in Udupi, Mangalore, Manipal, Karnataka. ETC solar water heaters, solar street lights, and solar panels. Serving Udupi, Karkala, Kundapura, Mangalore, Moodabidri, Mulki & nearby areas. 20+ years of expertise.',
+    'Leading solar water heater dealer in Udupi, Mangalore, Manipal, Karnataka. ETC solar water heaters, solar street lights, and solar panels. Serving Udupi, Karkala, Kundapura, Mangalore, Moodabidri, Mulki & nearby areas. 5+ years of quality service.',
   keywords: [
     'solar water heater Udupi',
     'solar water heater in Udupi',
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     siteName: 'Mayura Solar Systems Udupi',
     title: 'Mayura Solar Systems Udupi | Solar Water Heaters & Street Lights',
     description:
-      'Leading solar water heater dealer in Udupi, Mangalore, Manipal. ETC solar water heaters, solar street lights, and solar panels. Serving Udupi, Karkala, Kundapura, Mangalore, Moodabidri & surrounding areas.',
+      'Leading solar water heater dealer in Udupi, Mangalore, Manipal. ETC solar water heaters, solar street lights, and solar panels. 100+ satisfied customers, 200+ installations. Serving Udupi, Karkala, Kundapura, Mangalore, Moodabidri & surrounding areas.',
     images: [
       {
         url: '/images/og-image.jpg',
@@ -99,11 +99,16 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
+  '@id': 'https://mayurasolarsystems.com/#business',
   name: 'Mayura Solar Systems',
+  alternateName: 'Mayura Solar',
   url: 'https://mayurasolarsystems.com',
-  logo: 'https://mayurasolarsystems.com/images/logo.png',
+  logo: 'https://mayurasolarsystems.com/images/logo.svg',
+  image: 'https://mayurasolarsystems.com/images/peacock-icon.svg',
   description:
-    'Leading solar water heater dealer in Udupi, Mangalore, Manipal with 20+ years of expertise. ETC solar water heaters, solar street lights, and solar panels. Serving entire Udupi and Dakshina Kannada districts.',
+    'Leading solar water heater dealer in Udupi, Mangalore, Manipal with 5+ years of quality service. ETC solar water heaters, solar street lights, and solar panels. 100+ customers, 200+ installations. Serving entire Udupi and Dakshina Kannada districts.',
+  foundingDate: '2020',
+  slogan: 'Powering Your Future with Clean Energy',
   address: {
     '@type': 'PostalAddress',
     streetAddress: '2-24A, Mathibettu Varanga, Muniyalu Post',
@@ -207,14 +212,21 @@ const organizationSchema = {
   },
   openingHoursSpecification: {
     '@type': 'OpeningHoursSpecification',
-    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+    dayOfWeek: [
+      'Monday',
+      'Tuesday',
+      'Wednesday',
+      'Thursday',
+      'Friday',
+      'Saturday',
+    ],
     opens: '09:00',
     closes: '18:00',
   },
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.8',
-    reviewCount: '50',
+    reviewCount: '100',
   },
   sameAs: [
     'https://www.facebook.com/mayurasolar',

@@ -1,9 +1,54 @@
-'use client';
-
-import { Card, CardBody, CardHeader, CardFooter, Button } from '@heroui/react';
-import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import ProductsContent from '@/components/ProductsContent';
+import StructuredData from '@/components/StructuredData';
+import { generateProductsSchema } from '@/lib/schemas/products';
+import { generateBreadcrumb } from '@/lib/schema';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title:
+    'Solar Products | Water Heaters, Panels, Street Lights | Mayura Solar Udupi',
+  description:
+    'Premium solar products in Udupi - ETC solar water heaters, solar panels, street lights, garden lights, water pumps. Best prices, 5-year warranty, expert installation.',
+  keywords: [
+    'solar water heater price Udupi',
+    'ETC solar water heater',
+    'solar panels Udupi',
+    'solar street lights Karnataka',
+    'solar garden lights',
+    'solar water pump',
+    'buy solar products Udupi',
+    'solar heater 100L 200L',
+  ],
+  openGraph: {
+    title:
+      'Solar Products - Water Heaters, Panels & More | Mayura Solar Systems',
+    description:
+      'Explore our range of premium solar products - water heaters, panels, street lights, and more. Quality assured with best warranties in Udupi, Karnataka.',
+    url: 'https://www.mayurasolar.xyz/products',
+    siteName: 'Mayura Solar Systems',
+    locale: 'en_IN',
+    type: 'website',
+    images: [
+      {
+        url: '/images/og-products.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Mayura Solar Systems - Solar Products',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Solar Products | Mayura Solar Systems Udupi',
+    description:
+      'Premium solar water heaters, panels, street lights and more in Udupi, Karnataka.',
+  },
+  alternates: {
+    canonical: 'https://www.mayurasolar.xyz/products',
+  },
+};
 
 export default function ProductsPage() {
   const products = [
@@ -19,7 +64,7 @@ export default function ProductsPage() {
         '5-year warranty',
         'Capacities: 100L to 500L',
       ],
-      image: '/images/etc-water-heater.jpg',
+      image: '/images/products/water-heater.png',
     },
     {
       id: 2,
@@ -33,7 +78,7 @@ export default function ProductsPage() {
         'Weather-resistant IP65 rating',
         '3-year warranty',
       ],
-      image: '/images/street-light.jpg',
+      image: '/images/products/street-light.png',
     },
     {
       id: 3,
@@ -47,7 +92,7 @@ export default function ProductsPage() {
         'Anti-reflective coating',
         'Various wattages available',
       ],
-      image: '/images/solar-panel.jpg',
+      image: '/images/products/panel.png',
     },
     {
       id: 4,
@@ -61,7 +106,7 @@ export default function ProductsPage() {
         'Standard sizes available',
         '1-year warranty',
       ],
-      image: '/images/etc-tubes.jpg',
+      image: '/images/products/etc.png',
     },
     {
       id: 5,
@@ -75,7 +120,7 @@ export default function ProductsPage() {
         'Waterproof design',
         'Multiple designs available',
       ],
-      image: '/images/garden-light.jpg',
+      image: '/images/products/garden-light.png',
     },
     {
       id: 6,
@@ -89,7 +134,7 @@ export default function ProductsPage() {
         'Low maintenance',
         '3-year warranty',
       ],
-      image: '/images/water-pump.jpg',
+      image: '/images/products/pump.png',
     },
   ];
 
@@ -113,83 +158,18 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      {/* Products Grid */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {products.map(product => (
-              <Card
-                key={product.id}
-                className="border-2 border-gray-100 hover:border-[#40a8e0] hover:shadow-2xl transition-all duration-300 group"
-              >
-                <CardHeader className="flex-col items-start pb-0 pt-6 px-6">
-                  <div className="relative w-full h-48 bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl flex items-center justify-center mb-4 group-hover:from-blue-100 group-hover:to-blue-200 transition-all">
-                    <span className="text-6xl">☀️</span>
-                    {/* Placeholder - replace with actual product images */}
-                  </div>
-                  <p className="text-xs uppercase font-bold text-[#0066b3]">
-                    {product.category}
-                  </p>
-                  <h3 className="text-2xl font-bold text-gray-900 mt-2 group-hover:text-[#0066b3] transition-colors">
-                    {product.name}
-                  </h3>
-                </CardHeader>
-                <CardBody className="overflow-visible py-4 px-6">
-                  <p className="text-gray-600 mb-4 leading-relaxed">
-                    {product.description}
-                  </p>
-                  <div className="space-y-2">
-                    <p className="font-bold text-sm text-gray-900">
-                      Key Features:
-                    </p>
-                    <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
-                      {product.features.map((feature, index) => (
-                        <li key={product.id + '-feature-' + index}>
-                          {feature}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </CardBody>
-                <CardFooter className="pt-0 px-6 pb-6">
-                  <Button
-                    as={Link}
-                    href="/contact"
-                    className="w-full bg-gradient-to-r from-[#0087d3] to-blue-600 text-white font-bold shadow-lg hover:shadow-xl transition-all flex items-center justify-center"
-                    radius="lg"
-                  >
-                    Get Quote
-                  </Button>
-                </CardFooter>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-[#0087d3] to-blue-600">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Need Help Choosing the Right Product?
-          </h2>
-          <p className="text-lg text-white/90 mb-8">
-            Our solar energy experts are ready to help you find the perfect
-            solution for your needs.
-          </p>
-          <Link
-            href="/contact"
-            className="inline-flex items-center gap-2 bg-white text-[#0066b3] font-bold px-12 py-4 rounded-xl shadow-2xl hover:shadow-[0_20px_50px_rgba(255,255,255,0.3)] hover:scale-105 transition-all duration-300 border-2 border-white/50"
-          >
-            Contact Our Experts
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-            </svg>
-          </Link>
-        </div>
-      </section>
+      <ProductsContent products={products} />
 
       <Footer />
+
+      {/* Structured Data for SEO */}
+      <StructuredData data={generateProductsSchema(products)} />
+      <StructuredData
+        data={generateBreadcrumb([
+          { name: 'Home', url: 'https://www.mayurasolar.xyz' },
+          { name: 'Products', url: 'https://www.mayurasolar.xyz/products' },
+        ])}
+      />
     </div>
   );
 }

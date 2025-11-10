@@ -135,7 +135,7 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {products.map((product) => (
+            {products.map(product => (
               <Card
                 key={product.title}
                 className="bg-white border-2 border-gray-100 hover:border-[#40a8e0] hover:shadow-2xl transition-all duration-300 group"
@@ -183,7 +183,7 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
-            {features.map((feature) => (
+            {features.map(feature => (
               <div
                 key={feature.title}
                 className="text-center p-6 rounded-2xl hover:bg-gradient-to-br hover:from-blue-50 hover:to-blue-50 transition-all duration-300 group"
