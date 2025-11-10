@@ -57,7 +57,7 @@ Required Information:
 - Secondary: Solar Energy Equipment Supplier
 - Address: [Your exact Udupi address]
 - Phone: [Your phone number]
-   - Website: https://mayurasolarsystems.com
+   - Website: https://mayurasolar.xyz
    - Hours: Mon-Sat 9:00 AM - 6:00 PM
    - Service Areas: Udupi, Mangalore, Manipal, Karkala, Kundapura, Moodabidri, Mulki, Surathkal, Hebri, Nitte, Belman, Padubidri, Shirva, Bajegoli, Brahmavara, Kateel, Kinnigoli, Naravi, Belthangadi
 ```

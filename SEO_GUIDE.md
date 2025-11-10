@@ -44,7 +44,7 @@ Each page has unique:
 - [ ] Create Google Search Console account
 - [ ] Add and verify your domain
 - [ ] Replace `your-google-verification-code` in `layout.tsx` with actual code
-- [ ] Submit sitemap: `https://mayurasolarsystems.com/sitemap.xml`
+- [ ] Submit sitemap: `https://mayurasolar.xyz/sitemap.xml`
 
 #### 2. **Images for SEO**
 Create these images in `/public/images/`:
@@ -150,10 +150,10 @@ Add to specific pages:
 ```bash
 # Check for broken links
 npm install -g broken-link-checker
-blc https://mayurasolarsystems.com -ro
+blc https://mayurasolar.xyz -ro
 
 # Test lighthouse scores
-npx lighthouse https://mayurasolarsystems.com --view
+npx lighthouse https://mayurasolar.xyz --view
 ```
 
 ---

@@ -9,7 +9,7 @@
 👉 Add:
    - Your exact Udupi address
    - Phone number
-   - Website: https://mayurasolarsystems.com
+   - Website: https://mayurasolar.xyz
    - Category: Solar Energy Contractor
    - 5-10 photos of your shop/products
    - Business hours: Mon-Sat 9 AM - 6 PM
@@ -26,7 +26,7 @@ Open `src/app/layout.tsx` and update:
 **Line ~108-109:** Add your actual details
 ```typescript
 telephone: '+91-1234567890',  // Your phone
-email: 'info@mayurasolarsystems.com',  // Your email
+email: 'info@mayurasolar.xyz',  // Your email
 ```
 
 **Line ~102-105:** Add exact GPS coordinates

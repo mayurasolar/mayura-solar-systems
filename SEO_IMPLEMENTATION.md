@@ -125,13 +125,13 @@ Add actual customer reviews to schema markup for star ratings in search results
 ### Quick Test Commands:
 ```bash
 # View sitemap
-curl https://mayurasolarsystems.com/sitemap.xml
+curl https://mayurasolar.xyz/sitemap.xml
 
 # View robots.txt
-curl https://mayurasolarsystems.com/robots.txt
+curl https://mayurasolar.xyz/robots.txt
 
 # Check structured data (after deployment)
-# Visit: view-source:https://mayurasolarsystems.com
+# Visit: view-source:https://mayurasolar.xyz
 ```
 
 ## Key SEO Metrics to Monitor
@@ -181,7 +181,7 @@ curl https://mayurasolarsystems.com/robots.txt
 - ✅ Local SEO optimized for Udupi and surrounding areas
 - ⚠️ Remember to update Google verification code
 - ⚠️ Create actual OpenGraph images for social sharing
-- ⚠️ Domain URL is set to: `https://mayurasolarsystems.com`
+- ⚠️ Domain URL is set to: `https://mayurasolar.xyz`
 
 ---
 

@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mayurasolarsystems.com'),
+  metadataBase: new URL('https://mayurasolar.xyz'),
   title: {
     default: 'Mayura Solar Systems Udupi | Solar Water Heaters & Street Lights',
     template: '%s | Mayura Solar Systems Udupi',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://mayurasolarsystems.com',
+    url: 'https://mayurasolar.xyz',
     siteName: 'Mayura Solar Systems Udupi',
     title: 'Mayura Solar Systems Udupi | Solar Water Heaters & Street Lights',
     description:
@@ -99,12 +99,12 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  '@id': 'https://mayurasolarsystems.com/#business',
+  '@id': 'https://mayurasolar.xyz/#business',
   name: 'Mayura Solar Systems',
   alternateName: 'Mayura Solar',
-  url: 'https://mayurasolarsystems.com',
-  logo: 'https://mayurasolarsystems.com/images/logo.svg',
-  image: 'https://mayurasolarsystems.com/images/peacock-icon.svg',
+  url: 'https://mayurasolar.xyz',
+  logo: 'https://mayurasolar.xyz/images/logo.svg',
+  image: 'https://mayurasolar.xyz/images/peacock-icon.svg',
   description:
     'Leading solar water heater dealer in Udupi, Mangalore, Manipal with 5+ years of quality service. ETC solar water heaters, solar street lights, and solar panels. 100+ customers, 200+ installations. Serving entire Udupi and Dakshina Kannada districts.',
   foundingDate: '2020',

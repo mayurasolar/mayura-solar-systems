@@ -73,7 +73,7 @@ vercel --prod
 1. **In Vercel Dashboard:**
    - Go to your project
    - Click **Settings** → **Domains**
-   - Enter your domain (e.g., `mayurasolarsystems.com`)
+   - Enter your domain (e.g., `mayurasolar.xyz`)
    - Click **Add**
 
 2. **Configure DNS:**
@@ -120,8 +120,8 @@ vercel --prod
 
 - [ ] **Update SEO Metadata**
   - Edit `src/app/layout.tsx` - Update title, description
-  - Edit `src/app/sitemap.ts` - Change `mayurasolarsystems.com` to your domain
-  - Edit `src/app/robots.ts` - Change `mayurasolarsystems.com` to your domain
+  - Edit `src/app/sitemap.ts` - Change `mayurasolar.xyz` to your domain
+  - Edit `src/app/robots.ts` - Change `mayurasolar.xyz` to your domain
 
 - [ ] **Customize Content**
   - About page: Update company story

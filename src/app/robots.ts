@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: 'https://mayurasolarsystems.com/sitemap.xml',
+    sitemap: 'https://mayurasolar.xyz/sitemap.xml',
   };
 }

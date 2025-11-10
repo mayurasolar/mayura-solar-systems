@@ -187,7 +187,7 @@ Your site will be live in minutes! ✨
 ### Custom Domain Setup
 
 1. In Vercel Dashboard → Project Settings → Domains
-2. Add your domain (e.g., `mayurasolarsystems.com`)
+2. Add your domain (e.g., `mayurasolar.xyz`)
 3. Update DNS records as instructed
 4. SSL certificate auto-generated
 
@@ -233,7 +233,7 @@ npm install @vercel/analytics
 ## 🆘 Support & Maintenance
 
 **Contact:**
-- Email: info@mayurasolarsystems.com
+- Email: info@mayurasolar.xyz
 - Website: [Your Domain]
 
 **Tech Stack:**

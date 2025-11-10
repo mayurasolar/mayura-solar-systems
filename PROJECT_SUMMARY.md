@@ -81,8 +81,8 @@ Edit `src/app/contact/page.tsx` and add:
 
 ### 3. **Update Domain Names** (Before Deployment)
 Edit these files to replace placeholder domain:
-- `src/app/sitemap.ts` - Line 4: Change `mayurasolarsystems.com` to your domain
-- `src/app/robots.ts` - Line 10: Change `mayurasolarsystems.com` to your domain
+- `src/app/sitemap.ts` - Line 4: Change `mayurasolar.xyz` to your domain
+- `src/app/robots.ts` - Line 10: Change `mayurasolar.xyz` to your domain
 
 ### 4. **Add Product Images** (Optional but Recommended)
 Add actual product photos to `public/images/`:

@@ -20,11 +20,11 @@
 ### 1. Google Search Console (10 minutes)
 ```
 1. Go to: https://search.google.com/search-console
-2. Add property: mayurasolarsystems.com
+2. Add property: mayurasolar.xyz
 3. Get verification code
 4. Update in: src/app/layout.tsx line 83
    verification: { google: 'YOUR_CODE_HERE' }
-5. Submit sitemap: https://mayurasolarsystems.com/sitemap.xml
+5. Submit sitemap: https://mayurasolar.xyz/sitemap.xml
 ```
 
 ### 2. Create Social Share Images (30 minutes)
@@ -35,7 +35,7 @@ Create these images at 1200x630px in `/public/images/`:
 - `contact-og.jpg` - Contact page preview
 
 ### 3. Update Your Domain (2 minutes)
-Replace `mayurasolarsystems.com` in:
+Replace `mayurasolar.xyz` in:
 - `src/app/layout.tsx` (line 16)
 - `src/app/sitemap.ts` (line 4)
 - `src/app/robots.ts` (line 9)
