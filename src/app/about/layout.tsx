@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About Us - Solar Company in Udupi & Mangalore Since 2003',
+  title: 'About Us - Solar Company in Udupi & Mangalore Since 2020',
   description:
-    'Mayura Solar Systems - Leading solar company in Udupi, Mangalore, Karnataka since 2003. 20+ years of excellence in solar water heaters and renewable energy solutions. Serving Udupi, Karkala, Kundapura, Mangalore, Moodabidri & nearby areas.',
+    'Mayura Solar Systems - Leading solar company in Udupi, Mangalore, Karnataka since 2020. 5+ years of excellence in solar water heaters and renewable energy solutions. Serving Udupi, Karkala, Kundapura, Mangalore, Moodbidri & nearby areas.',
   keywords: [
     'solar company Udupi',
     'solar company Mangalore',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'solar water heater Karkala',
     'solar street light Karkala',
     'solar water heater Kundapura',
-    'solar street lights Moodabidri',
+    'solar street lights Moodbidri',
     'solar panels Udupi',
     'solar installation Mangalore',
     'solar water heater Hebri'

@@ -4,7 +4,7 @@
 
 ### **Target Cities:**
 - **Primary:** Udupi, Mangalore, Manipal
-- **Secondary:** Karkala, Kundapura, Moodabidri, Mulki, Surathkal
+- **Secondary:** Karkala, Kundapura, Moodbidri, Mulki, Surathkal
 - **Tertiary:** Hebri, Nitte, Belman, Padubidri, Shirva, Bajegoli, Brahmavara, Kateel, Kinnigoli, Naravi, Belthangadi
 
 **Coverage Area:** Entire Udupi & Dakshina Kannada Districts
@@ -22,7 +22,7 @@ All pages now include:
 ### 2. **LocalBusiness Schema** ✅
 Changed from generic "Organization" to "LocalBusiness" with:
 - Geographic coordinates (Udupi: 13.3409, 74.7421)
-- **19 Area served cities:** Udupi, Mangalore, Manipal, Karkala, Kundapura, Hebri, Nitte, Belman, Padubidri, Shirva, Bajegoli, Moodabidri, Mulki, Surathkal, Brahmavara, Kateel, Kinnigoli, Naravi, Belthangadi
+- **19 Area served cities:** Udupi, Mangalore, Manipal, Karkala, Kundapura, Hebri, Nitte, Belman, Padubidri, Shirva, Bajegoli, Moodbidri, Mulki, Surathkal, Brahmavara, Kateel, Kinnigoli, Naravi, Belthangadi
 - Contact information ready
 - Operating hours
 - Aggregate ratings
@@ -59,7 +59,7 @@ Required Information:
 - Phone: [Your phone number]
    - Website: https://mayurasolar.xyz
    - Hours: Mon-Sat 9:00 AM - 6:00 PM
-   - Service Areas: Udupi, Mangalore, Manipal, Karkala, Kundapura, Moodabidri, Mulki, Surathkal, Hebri, Nitte, Belman, Padubidri, Shirva, Bajegoli, Brahmavara, Kateel, Kinnigoli, Naravi, Belthangadi
+   - Service Areas: Udupi, Mangalore, Manipal, Karkala, Kundapura, Moodbidri, Mulki, Surathkal, Hebri, Nitte, Belman, Padubidri, Shirva, Bajegoli, Brahmavara, Kateel, Kinnigoli, Naravi, Belthangadi
 ```
 
 **Add to Google Business:**
@@ -70,7 +70,7 @@ Required Information:
   - Products (water heaters, panels)
   - Your team working
 - [ ] Business description (750 chars max):
-  "Leading solar water heater dealer in Udupi and Mangalore since 2003. We specialize in ETC solar water heaters, solar street lights, and solar panels. Serving Udupi, Mangalore, Manipal, Karkala, Kundapura, Moodabidri, Mulki, and entire Dakshina Kannada district with 20+ years of expertise. Free consultation and professional installation."#### 2. **Update Your Website Content**
+  "Leading solar water heater dealer in Udupi and Mangalore since 2003. We specialize in ETC solar water heaters, solar street lights, and solar panels. Serving Udupi, Mangalore, Manipal, Karkala, Kundapura, Moodbidri, Mulki, and entire Dakshina Kannada district with 20+ years of expertise. Free consultation and professional installation."#### 2. **Update Your Website Content**
 Add these location-specific sections:
 
 **On Homepage (src/app/page.tsx):**
@@ -85,7 +85,7 @@ Add a "Service Areas" section:
     <li>Manipal</li>
     <li>Karkala</li>
     <li>Kundapura</li>
-    <li>Moodabidri</li>
+    <li>Moodbidri</li>
     <li>Mulki</li>
     <li>Surathkal</li>
     <li>Hebri</li>
@@ -310,7 +310,7 @@ Update in `src/app/layout.tsx`:
 ### **Secondary Keywords (Per City):**
 - solar water heater Karkala
 - solar water heater Kundapura
-- solar water heater Moodabidri
+- solar water heater Moodbidri
 - solar water heater Mulki
 - solar water heater Surathkal
 - solar panels Udupi

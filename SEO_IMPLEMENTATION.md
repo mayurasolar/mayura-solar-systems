@@ -161,7 +161,7 @@ curl https://mayurasolar.xyz/robots.txt
 
 ### Location-Based:
 - Udupi, Mangalore, Manipal, Karkala, Kundapura
-- Moodabidri, Mulki, Surathkal, Padubidri
+- Moodbidri, Mulki, Surathkal, Padubidri
 - And 10+ more cities in the region
 
 ## Files Modified for SEO

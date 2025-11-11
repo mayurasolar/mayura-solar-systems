@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     'solar panels Udupi Mangalore',
     'solar water heater Manipal',
     'solar water heater Karkala',
-    'solar water heater Moodabidri',
+    'solar water heater Moodbidri',
     'solar water heater Kundapura',
     'evacuated tube collector Udupi',
     'buy solar products Udupi',

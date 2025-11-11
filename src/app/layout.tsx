@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: '%s | Mayura Solar Systems Udupi',
   },
   description:
-    'Leading solar water heater dealer in Udupi, Mangalore, Manipal, Karnataka. ETC solar water heaters, solar street lights, and solar panels. Serving Udupi, Karkala, Kundapura, Mangalore, Moodabidri, Mulki & nearby areas. 5+ years of quality service.',
+    'Leading solar water heater dealer in Udupi, Mangalore, Manipal, Karnataka. ETC solar water heaters, solar street lights, and solar panels. Serving Udupi, Karkala, Kundapura, Mangalore, Moodbidri, Mulki & nearby areas. 5+ years of quality service.',
   keywords: [
     'solar water heater Udupi',
     'solar water heater in Udupi',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     'solar water heater Manipal',
     'solar water heater Karkala',
     'solar water heater Kundapura',
-    'solar water heater Moodabidri',
+    'solar water heater Moodbidri',
     'solar water heater Mulki',
     'solar water heater Surathkal',
     'ETC solar heater Udupi',
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     siteName: 'Mayura Solar Systems Udupi',
     title: 'Mayura Solar Systems Udupi | Solar Water Heaters & Street Lights',
     description:
-      'Leading solar water heater dealer in Udupi, Mangalore, Manipal. ETC solar water heaters, solar street lights, and solar panels. 100+ satisfied customers, 200+ installations. Serving Udupi, Karkala, Kundapura, Mangalore, Moodabidri & surrounding areas.',
+      'Leading solar water heater dealer in Udupi, Mangalore, Manipal. ETC solar water heaters, solar street lights, and solar panels. 100+ satisfied customers, 200+ installations. Serving Udupi, Karkala, Kundapura, Mangalore, Moodbidri & surrounding areas.',
     images: [
       {
         url: '/images/og-image.jpg',
@@ -165,7 +165,7 @@ const organizationSchema = {
     },
     {
       '@type': 'City',
-      name: 'Moodabidri',
+      name: 'Moodbidri',
     },
     {
       '@type': 'City',

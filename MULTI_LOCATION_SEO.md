@@ -12,7 +12,7 @@
 #### **Tier 2 Cities (Medium Priority)**
 4. Karkala
 5. Kundapura
-6. Moodabidri
+6. Moodbidri
 7. Mulki
 8. Surathkal
 
@@ -121,7 +121,7 @@ One listing with all service areas:
 ### **Other Cities (Long-tail)**
 - solar water heater Karkala
 - solar water heater Kundapura
-- solar water heater Moodabidri
+- solar water heater Moodbidri
 - solar water heater Mulki
 - solar water heater Surathkal
 (Same pattern for remaining cities)
@@ -160,7 +160,7 @@ One listing with all service areas:
 
 6. **"Why Karkala Residents are Switching to Solar Energy"**
 7. **"Best Solar Solutions for Kundapura Homes"**
-8. **"Moodabidri's Solar Revolution - Join the Movement"**
+8. **"Moodbidri's Solar Revolution - Join the Movement"**
 
 ---
 
@@ -170,7 +170,7 @@ Add these to your FAQ section:
 
 ### **General FAQs:**
 Q: Which areas do you serve?
-A: We serve entire Udupi and Dakshina Kannada districts including Udupi, Mangalore, Manipal, Karkala, Kundapura, Moodabidri, Mulki, Surathkal, Hebri, Nitte, Belman, Padubidri, Shirva, Bajegoli, Brahmavara, Kateel, Kinnigoli, Naravi, and Belthangadi.
+A: We serve entire Udupi and Dakshina Kannada districts including Udupi, Mangalore, Manipal, Karkala, Kundapura, Moodbidri, Mulki, Surathkal, Hebri, Nitte, Belman, Padubidri, Shirva, Bajegoli, Brahmavara, Kateel, Kinnigoli, Naravi, and Belthangadi.
 
 Q: Do you charge extra for installation in Mangalore?
 A: No, we provide free installation across all our service areas.
@@ -286,7 +286,7 @@ Create similar pages for Udupi and Manipal.
 - Solar water heater near Udupi Temple
 - Solar water heater near Mangalore Airport
 - Solar panels near NITK Surathkal
-- Solar dealer near Moodabidri
+- Solar dealer near Moodbidri
 
 ---
 

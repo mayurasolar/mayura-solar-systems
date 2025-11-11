@@ -30,7 +30,7 @@ export default function Home() {
 
   const features = [
     {
-      title: '20+ Years Experience',
+      title: '5+ Years Experience',
       description: 'Trusted expertise in solar energy solutions',
       icon: '',
     },
@@ -107,7 +107,7 @@ export default function Home() {
             {/* Right Image */}
             <div className="relative lg:h-[600px] h-[450px] flex items-center justify-center">
               <Image
-                src="/images/banner_transparent_bg.svg"
+                src="/images/banner_transparent_bg.png"
                 alt="Mayura Solar Systems Products - Solar Water Heaters, Solar Panels, Street Lights"
                 fill
                 className="object-contain object-center drop-shadow-2xl"

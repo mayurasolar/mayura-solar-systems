@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Contact Us - Solar Water Heater Dealer in Udupi & Mangalore',
   description:
-    'Contact Mayura Solar Systems in Udupi for solar water heaters, street lights, and panels. Get expert consultation and free quotes. Serving Udupi, Mangalore, Manipal, Karkala, Kundapura, Moodabidri & nearby areas.',
+    'Contact Mayura Solar Systems in Udupi for solar water heaters, street lights, and panels. Get expert consultation and free quotes. Serving Udupi, Mangalore, Manipal, Karkala, Kundapura, Moodbidri & nearby areas.',
   keywords: [
     'contact solar company Udupi',
     'contact solar company Karkala',
