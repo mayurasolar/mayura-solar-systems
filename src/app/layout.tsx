@@ -20,27 +20,39 @@ export const metadata: Metadata = {
     template: '%s | Mayura Solar Systems Udupi',
   },
   description:
-    'Leading solar water heater dealer in Udupi, Mangalore, Manipal, Karnataka. ETC solar water heaters, solar street lights, and solar panels. Serving Udupi, Karkala, Kundapura, Mangalore, Moodbidri, Mulki & nearby areas. 5+ years of quality service.',
+    'Leading solar water heater dealer in Udupi, Mangalore, Manipal, and Karkala, Karnataka. Premium ETC solar water heaters, solar street lights, and solar panels. Serving Udupi, Karkala, Kundapura, Mangalore, Moodbidri, Mulki & nearby areas with 5+ years of quality service.',
   keywords: [
     'solar water heater Udupi',
     'solar water heater in Udupi',
     'solar water heater Mangalore',
+    'solar water heater in Mangalore',
     'solar water heater Manipal',
+    'solar water heater in Manipal',
     'solar water heater Karkala',
+    'solar water heater in Karkala',
     'solar water heater Kundapura',
+    'solar water heater in Kundapura',
     'solar water heater Moodbidri',
+    'solar water heater in Moodbidri',
     'solar water heater Mulki',
+    'solar water heater in Mulki',
     'solar water heater Surathkal',
+    'solar water heater in Surathkal',
+    'solar water heater Padubidri',
+    'solar water heater in Padubidri',
     'ETC solar heater Udupi',
+    'ETC solar water heater Karkala',
     'solar street lights Udupi',
+    'solar street lights Karkala',
     'solar panels Udupi Mangalore',
     'solar systems Karnataka',
     'solar dealer Udupi',
+    'solar dealer Karkala',
     'solar installation Udupi Karnataka',
     'evacuated tube collector Udupi',
     'renewable energy Udupi Mangalore',
-    'solar water heater Padubidri',
-    'solar dealer Mangalore',
+    'solar water heater dealer Karkala',
+    'solar water heater dealer Udupi',
   ],
   authors: [{ name: 'Mayura Solar Systems' }],
   creator: 'Mayura Solar Systems',
@@ -50,10 +62,20 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/apple-touch-icon.png',
-  },
+  // Next.js 13+ automatically serves favicon.ico from app/ or public/
+  // To add custom icons, place these files in public/ directory:
+  // - favicon.ico (32x32)
+  // - apple-touch-icon.png (180x180)
+  // - favicon-16x16.png, favicon-32x32.png
+  // Then uncomment below:
+  // icons: {
+  //   icon: [
+  //     { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+  //     { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+  //   ],
+  //   apple: '/apple-touch-icon.png',
+  //   shortcut: '/favicon.ico',
+  // },
   openGraph: {
     type: 'website',
     locale: 'en_IN',
@@ -61,7 +83,7 @@ export const metadata: Metadata = {
     siteName: 'Mayura Solar Systems Udupi',
     title: 'Mayura Solar Systems Udupi | Solar Water Heaters & Street Lights',
     description:
-      'Leading solar water heater dealer in Udupi, Mangalore, Manipal. ETC solar water heaters, solar street lights, and solar panels. 100+ satisfied customers, 200+ installations. Serving Udupi, Karkala, Kundapura, Mangalore, Moodbidri & surrounding areas.',
+      'Leading solar water heater dealer in Udupi, Mangalore, Manipal, and Karkala. ETC solar water heaters, solar street lights, and solar panels. 100+ satisfied customers, 200+ installations. Serving Udupi, Karkala, Kundapura, Mangalore, Moodbidri & surrounding areas.',
     images: [
       {
         url: '/images/og-image.jpg',

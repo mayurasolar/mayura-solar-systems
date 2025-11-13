@@ -203,6 +203,60 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Service Areas Section */}
+      <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Serving Across{' '}
+              <span className="bg-gradient-to-r from-[#0087d3] to-blue-600 bg-clip-text text-transparent">
+                Coastal Karnataka
+              </span>
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Premium solar water heaters in Udupi, Karkala, Mangalore, Manipal, and surrounding areas
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {[
+              { city: 'Udupi', desc: 'Solar Water Heater Installation & Service' },
+              { city: 'Karkala', desc: 'ETC Solar Water Heaters & Street Lights' },
+              { city: 'Mangalore', desc: 'Complete Solar Energy Solutions' },
+              { city: 'Manipal', desc: 'Residential & Commercial Solar Systems' },
+              { city: 'Kundapura', desc: 'Solar Water Heater Dealers' },
+              { city: 'Moodbidri', desc: 'Solar Installation & Maintenance' },
+            ].map(location => (
+              <Card
+                key={location.city}
+                className="bg-white border border-gray-200 hover:border-[#40a8e0] hover:shadow-lg transition-all duration-300"
+              >
+                <CardBody className="p-6">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">
+                    {location.city}
+                  </h3>
+                  <p className="text-gray-600 text-sm">{location.desc}</p>
+                </CardBody>
+              </Card>
+            ))}
+          </div>
+
+          <div className="mt-12 text-center">
+            <p className="text-gray-600 text-base mb-4">
+              Also proudly serving: Padubidri, Mulki, Surathkal, Brahmavara, Hebri, Nitte, Belman, Shirva, and more locations across Udupi and Dakshina Kannada districts.
+            </p>
+            <Button
+              as={Link}
+              href="/contact"
+              className="bg-gradient-to-r from-[#0087d3] to-blue-600 text-white font-semibold"
+              size="lg"
+            >
+              Check Service Availability
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-r from-[#0087d3] via-blue-600 to-blue-700 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
