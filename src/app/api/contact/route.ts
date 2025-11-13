@@ -41,13 +41,19 @@ ${message}
 
     const result = await web3FormsResponse.json();
 
-    if (result.success) {
+    // If Web3Forms returned success, respond OK. Otherwise return details
+    // from the external service to help debugging (status 502: bad gateway).
+    if (web3FormsResponse.ok && result && result.success) {
       return NextResponse.json(
         { success: true, message: 'Message sent successfully!' },
         { status: 200 }
       );
     } else {
-      throw new Error('Failed to send email');
+      console.error('Web3Forms response error:', result);
+      return NextResponse.json(
+        { error: 'Failed to send email via Web3Forms', details: result },
+        { status: 502 }
+      );
     }
   } catch (error) {
     console.error('Contact form error:', error);
