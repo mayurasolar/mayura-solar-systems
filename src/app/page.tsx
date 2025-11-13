@@ -214,16 +214,26 @@ export default function Home() {
               </span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Premium solar water heaters in Udupi, Karkala, Mangalore, Manipal, and surrounding areas
+              Premium solar water heaters in Udupi, Karkala, Mangalore, Manipal,
+              and surrounding areas
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {[
-              { city: 'Udupi', desc: 'Solar Water Heater Installation & Service' },
-              { city: 'Karkala', desc: 'ETC Solar Water Heaters & Street Lights' },
+              {
+                city: 'Udupi',
+                desc: 'Solar Water Heater Installation & Service',
+              },
+              {
+                city: 'Karkala',
+                desc: 'ETC Solar Water Heaters & Street Lights',
+              },
               { city: 'Mangalore', desc: 'Complete Solar Energy Solutions' },
-              { city: 'Manipal', desc: 'Residential & Commercial Solar Systems' },
+              {
+                city: 'Manipal',
+                desc: 'Residential & Commercial Solar Systems',
+              },
               { city: 'Kundapura', desc: 'Solar Water Heater Dealers' },
               { city: 'Moodbidri', desc: 'Solar Installation & Maintenance' },
             ].map(location => (
@@ -243,7 +253,9 @@ export default function Home() {
 
           <div className="mt-12 text-center">
             <p className="text-gray-600 text-base mb-4">
-              Also proudly serving: Padubidri, Mulki, Surathkal, Brahmavara, Hebri, Nitte, Belman, Shirva, and more locations across Udupi and Dakshina Kannada districts.
+              Also proudly serving: Padubidri, Mulki, Surathkal, Brahmavara,
+              Hebri, Nitte, Belman, Shirva, and more locations across Udupi and
+              Dakshina Kannada districts.
             </p>
             <Button
               as={Link}

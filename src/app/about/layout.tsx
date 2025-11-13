@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'solar street lights Moodbidri',
     'solar panels Udupi',
     'solar installation Mangalore',
-    'solar water heater Hebri'
+    'solar water heater Hebri',
   ],
   openGraph: {
     title: 'About Mayura Solar Systems - Udupi & Mangalore',
