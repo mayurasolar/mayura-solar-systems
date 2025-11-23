@@ -33,7 +33,6 @@ export default function Navbar() {
         <NavbarContent className="sm:hidden" justify="start">
           <button
             onClick={() => {
-              console.log('Hamburger clicked, current state:', isMenuOpen);
               setIsMenuOpen(!isMenuOpen);
             }}
             className="flex flex-col gap-1.5 w-10 h-10 justify-center items-center -ml-2 touch-manipulation"

@@ -49,14 +49,13 @@ ${message}
         { status: 200 }
       );
     } else {
-      console.error('Web3Forms response error:', result);
       return NextResponse.json(
         { error: 'Failed to send email via Web3Forms', details: result },
         { status: 502 }
       );
     }
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
   } catch (error) {
-    console.error('Contact form error:', error);
     return NextResponse.json(
       { error: 'Failed to send message. Please try again.' },
       { status: 500 }

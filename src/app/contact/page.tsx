@@ -49,8 +49,8 @@ export default function ContactPage() {
       } else {
         setSubmitError(result.error || 'Failed to send message');
       }
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
-      console.error('Form submission error:', error);
       setSubmitError('Failed to send message. Please try again.');
     } finally {
       setIsSubmitting(false);
